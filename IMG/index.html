@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+<style>
+	.body{
+		background-color:black;
+	}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.TopBar{
+		width: 100%;
+		height: 94px;
+		position: fixed;
+		top: 0;
+		opacity: 0.7;
+		z-index: 20;
+		box-shadow: 0px 0px 0px 2px grey;
+	}
+	
+	.TB_F_ULF{
+		position: absolute;
+		left: 70px;
+		list-style: none;
+		width: 400px;
+	}
+	.TB_F_ULF li{
+		width: 100px;
+		height: 94px;
+		float: left;
+		background-color: aqua;
+		text-align:center;
+		vertical-align:middle;
+		line-height: 80px;
+	}
+	
+	.TB_F_ULF li:hover{
+		background-color: red;
+	}
+	
+.WMSJ{
+	position: absolute;
+	height: 94px;
+	left: 470px;
+	width: 500px;
+  	text-align:center;
+	font-size: 25px;
+	background-color: antiquewhite;
+    line-height: 50px;
+}
+	
+	
+	.TB_F_ULS{
+		position: absolute;
+		right: 155px;
+		list-style: none;
+		width: 400px;
+	}
+	.TB_F_ULS li{
+		line-height: 80px;
+		width: 100px;
+		height: 94px;
+		float: left;
+		background-color: #808080;
+		text-align: center;
+		
+	}
+	.TB_F_ULS li:hover{
+		background-color: red;
+	}
+	.IMGF{
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 450px;
+		background-color: black;
+	}
+	.GUODUWENZI{
+		position: absolute;
+		width: 100%;
+		height: 70PX;
+		top: 450PX;
+		align-items: center;
+		left: 44%;
+		font-size: 35PX;
+		font-family: "新宋体";
+	}
+	
+	#WZF{
+		padding-top: 30PX;
+	}
+	
+	.XFK{
+		display: flex;
+		justify-content: space-around;
+		width: 80%;
+		height: 500px;
+		position: absolute;
+		top: 600px;
+		flex-wrap: wrap;
+		left: 10%;
+	}
+	.XFK div{
+		margin: 20px;
+		width: 300px;
+		height: 400px;
+		background-color: #FAEBD7;
+	}
+	.NUMONE{
+		align-items: center;
+		overflow: hidden;
+		margin: 0;
+		width: 250px;
+		display: flex;
+		flex-direction: column;
+		transition:all 0.5s;
+	}
+	
+	.NUMONE:hover{
+		transform: translateY(-10px);
+		transition:all 0.5s;
+	}
+	#NUMOO{
+		background-color: #000000;
+		height: 700px;
+	}
+	
+</style>
+	</head>
+	<body>
+<div class="TopBar">
+      <ul class="TB_F_ULF">
+      	<li><p>集团</p></li>
+		<li><p>新闻</p></li>	
+		<li><p>游戏</p></li>
+		<li><p>商城</p></li>
+      </ul>
+	  
+	  
+   <p class="WMSJ">wanmeishijie</p>
+    
+	
+
+
+      <ul class="TB_F_ULS">
+      	<li><p>会员</p></li>
+		<li><p>充值</p></li>
+		<li><p>客服</p></li>
+		<li><p>道具</p></li>
+      </ul>
+</div>
+
+<div class="IMGF">
+	<img src="" class="IMGG">
+</div>
+
+<div class="GUODUWENZI">
+	<p id="WZF">新闻中心</p>
+</div>
+<div class="XFK">
+	<div class="NUMONE">
+		<div id="NUMOO"></div>
+		<div ><p> flex-align:默认是设置垂直方向的对齐方式,值: start、end、center、stretch、baseline。 flex-pack:设置子元素之间如何分配多余空间,值:start、end、center.</p></div>
+		<div ><p>第二段文字</p></div>
+	</div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+
+<div>
+	
+</div>
+	</body>
+</html>
